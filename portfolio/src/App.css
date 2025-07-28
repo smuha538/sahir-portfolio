@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+#root {
+  overflow-x: hidden
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.modal-card {
+  padding: 20px 30px;
+  border-radius: 8px;
+  max-width: 600px;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header-button {
+  background-color: #d89b95;
+  border-color: #e4bcbc;
+  border-width: medium;
+}
+
+.header-button:focus {
+    background-color: #e4bcbc;    
+}
+
+.outfit-title {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: medium;
+}
+
+.outfit-text {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
