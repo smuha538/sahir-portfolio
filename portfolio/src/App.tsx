@@ -7,7 +7,7 @@ import SideNavBar from './components/sideNavBar';
 import About from './components/about';
 import Contact from './components/contact';
 import Footer from './components/footer';
-
+//note to self: add 'images' folder and the images to it in the gh-pages branch on github whenever updating/images not appearing
 function App() {
   const [sideMenuOpen, setSideMenuOpen] = React.useState(false);
 
