@@ -32,9 +32,9 @@ function Modal(props: {onClose: any, title: string, modalStack: any, modalDescri
                                 {tech}
                                 </span>
                             ))}</p>
-                <div className="mt-5">
+                <motion.div className="mt-5" whileHover={{ scale: 1.05 }}>
                     <a href={props.modalLink} className="text-blue-600 dark:text-blue-500 hover:underline bg-yellow-200" target="_blank"><img src="./images/github.png" alt="github link" width={100} height={100}></img></a>
-                </div>
+                </motion.div>
                 <button className="mt-5 bg-black" onClick={props.onClose}>Close</button>
 
             </motion.div>
