@@ -7,7 +7,7 @@ function Home() {
           <div className="text-center z-10 px-4">
             <RevealUp>
               <h1 className="text-5xl md:text-7xl mb-6 bg-gradient-to-r from-yellow-300 to-orange-400 bg-clip-text text-transparent leading-right outfit-title">
-                Hey, {<br></br>} I'm Sahir Muhammad Tariqqqq
+                Hey, {<br></br>} I'm Sahir Muhammad Tariq
               </h1>
             </RevealUp>
             <RevealUp>

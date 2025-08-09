@@ -32,7 +32,7 @@ function Portfolio() {
             <RevealLeft>
                 <div className="p-4">
                 <h1 className="text-3xl outfit-title text-blue-200 mb-8 text-center ">My Projects</h1>
-                <p className="text-lg mb-8 max-w-lg mx-auto outfit-text text-center outfit-text">
+                <p className="text-lg mb-8 max-w-lg mx-auto outfit-text text-center outfit-text text-white">
                     These are some of my personal passion projects and academic projects that I spend a lot time and effort on developing.
                 </p>
                 </div>

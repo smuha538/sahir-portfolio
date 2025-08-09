@@ -13,11 +13,11 @@ function About() {
         <section id="about" className="min-h-screen flex items-center justify-center">
             <div className="max-w-3xl mx-auto px-4">
             <RevealDown>
-            <h2 className="text-3xl mb-8 text-center outfit-title">
+            <h2 className="text-3xl mb-8 text-center outfit-title text-white">
                 My Background
             </h2>
             </RevealDown>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 text-white">
                 <RevealLeft>
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all bg-[url(/images/bg.svg)] outfit-text">
                         <h3 className="text-xl mb-4 text-center outfit-title"> Education </h3>

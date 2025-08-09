@@ -35,7 +35,7 @@ function Modal(props: {onClose: any, title: string, modalStack: any, modalDescri
                 <div className="mt-5">
                     <a href={props.modalLink} className="text-blue-600 dark:text-blue-500 hover:underline bg-yellow-200" target="_blank"><img src="./images/github.png" alt="github link" width={100} height={100}></img></a>
                 </div>
-                <button className="mt-5" onClick={props.onClose}>Close</button>
+                <button className="mt-5 bg-black" onClick={props.onClose}>Close</button>
 
             </motion.div>
 
